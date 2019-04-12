@@ -5,6 +5,7 @@
 ![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m782406538-9576456b750b805d76a9e93a.svg)
 <br>
 [![codecov](https://codecov.io/gh/ctyas/react-graph-example/branch/master/graph/badge.svg)](https://codecov.io/gh/ctyas/react-graph-example)
+[![Known Vulnerabilities](https://snyk.io/test/github/ctyas/react-graph-example/badge.svg?targetFile=package.json)](https://snyk.io/test/github/ctyas/react-graph-example?targetFile=package.json)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
