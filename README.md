@@ -1,11 +1,12 @@
 # React Graph Example
 [![Build Status](https://travis-ci.com/ctyas/react-graph-example.svg?branch=master)](https://travis-ci.com/ctyas/react-graph-example)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/151a645c-bde0-43f4-84e0-8846f20a9a9f/deploy-status)](https://app.netlify.com/sites/friendly-keller-9cdabb/deploys)
-![Uptime Robot status](https://img.shields.io/uptimerobot/status/m782406538-9576456b750b805d76a9e93a.svg)
-![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m782406538-9576456b750b805d76a9e93a.svg)
+[![Uptime Robot status](https://img.shields.io/uptimerobot/status/m782406538-9576456b750b805d76a9e93a.svg)](https://stats.uptimerobot.com/XMR61iQVA)
+[![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m782406538-9576456b750b805d76a9e93a.svg)](https://stats.uptimerobot.com/XMR61iQVA)
 <br>
 [![codecov](https://codecov.io/gh/ctyas/react-graph-example/branch/master/graph/badge.svg)](https://codecov.io/gh/ctyas/react-graph-example)
-[![Known Vulnerabilities](https://snyk.io/test/github/ctyas/react-graph-example/badge.svg?targetFile=package.json)](https://snyk.io/test/github/ctyas/react-graph-example?targetFile=package.json) [![Greenkeeper badge](https://badges.greenkeeper.io/ctyas/react-graph-example.svg)](https://greenkeeper.io/)
+[![Known Vulnerabilities](https://snyk.io/test/github/ctyas/react-graph-example/badge.svg?targetFile=package.json)](https://snyk.io/test/github/ctyas/react-graph-example?targetFile=package.json)
+[![Greenkeeper badge](https://badges.greenkeeper.io/ctyas/react-graph-example.svg)](https://greenkeeper.io/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
