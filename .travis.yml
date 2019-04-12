@@ -1,0 +1,13 @@
+language: node_js
+node_js: 
+  - "node"
+
+cache:
+  - yarn
+  - npm
+
+before_script:
+  - npm run setup
+
+scripts:
+  - npm run test
