@@ -5,7 +5,7 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { ApolloProvider } from "react-apollo";
 
-import ApolloClient, { gql } from "apollo-boost";
+import ApolloClient from "apollo-boost";
 
 const client = new ApolloClient({
     uri: "https://graphql-api-example.herokuapp.com/"
