@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders an error 1`] = `
+<p>
+  Error :(
+</p>
+`;
+
+exports[`renders loading 1`] = `
+<p>
+  Loading...
+</p>
+`;
+
+exports[`renders the result 1`] = `
+<div>
+  <p>
+    Hello World!
+  </p>
+</div>
+`;
