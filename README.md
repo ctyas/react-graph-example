@@ -1,3 +1,7 @@
+# React Graph Example
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/151a645c-bde0-43f4-84e0-8846f20a9a9f/deploy-status)](https://app.netlify.com/sites/friendly-keller-9cdabb/deploys)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
