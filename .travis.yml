@@ -7,8 +7,8 @@ cache:
   - npm
 
 install:
-  - npm run setup
+  - yarn run setup
 
 scripts:
-  - npm test:coverage
+  - yarn run test:coverage
   - codecov
