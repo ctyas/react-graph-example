@@ -9,6 +9,6 @@ cache:
 install:
   - yarn run setup
 
-scripts:
+script:
   - yarn run test:coverage
   - codecov
