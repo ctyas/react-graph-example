@@ -1,6 +1,8 @@
 # React Graph Example
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/151a645c-bde0-43f4-84e0-8846f20a9a9f/deploy-status)](https://app.netlify.com/sites/friendly-keller-9cdabb/deploys)
+![Uptime Robot status](https://img.shields.io/uptimerobot/status/m782406538-9576456b750b805d76a9e93a.svg)
+![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m782406538-9576456b750b805d76a9e93a.svg)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
