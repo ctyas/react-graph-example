@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import gql from 'graphql-tag';
 import ApolloClient from 'apollo-boost';
-import { ApolloProvider } from 'react-apollo';
+import { ApolloProvider } from '@apollo/react-hooks';
 
 it('renders without crashing', () => {
 
