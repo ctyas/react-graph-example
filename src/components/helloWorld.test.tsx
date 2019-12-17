@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { HelloWorld, HelloWorldRenderer } from './helloWorld';
-import { MockedProvider, MockedResponse } from 'react-apollo/test-utils';
+import { MockedProvider, MockedResponse } from '@apollo/react-testing';
 import { helloWorldQuery } from './helloWorld.query';
 import { shallow } from "enzyme";
 

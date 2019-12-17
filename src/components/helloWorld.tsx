@@ -1,6 +1,7 @@
-import { Query, QueryResult } from "react-apollo";
+import { useQuery,  } from "@apollo/react-hooks";
 import { helloWorldQuery } from "./helloWorld.query";
 import * as React from "react";
+import { QueryResult } from "@apollo/react-common";
 
 interface Result {
     hello: string
@@ -16,8 +17,7 @@ export const HelloWorldRenderer = ({ loading, error, data }: Pick<QueryResult<Re
     return null;
 }
 
-export const HelloWorld = () => (
-    <Query<Result> query={helloWorldQuery}>
-        {HelloWorldRenderer}
-    </Query>
-)
+export const HelloWorld = () => {
+    const result = useQuery<Result>(helloWorldQuery);
+    return <HelloWorldRenderer {...result} />;
+}
