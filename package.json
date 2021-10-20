@@ -11,7 +11,8 @@
     "graphql": "14.6.0",
     "react": "16.12.0",
     "react-dom": "16.12.0",
-    "react-scripts": "3.3.1"
+    "react-scripts": "4.0.0",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "setup": "yarn install",
@@ -19,7 +20,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test:coverage": "npm run test -- --coverage",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -47,5 +50,6 @@
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
     ]
-  }
+  },
+  "snyk": true
 }
