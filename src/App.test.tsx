@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import { MockedProvider } from '@apollo/client/testing';
+import { MockedProvider } from '@apollo/react-testing';
 
 it('renders without crashing', () => {
 
