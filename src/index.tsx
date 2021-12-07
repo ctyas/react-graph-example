@@ -3,11 +3,11 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 
-import ApolloClient from "apollo-boost";
-import { ApolloProvider } from "@apollo/react-hooks";
+import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 
 const client = new ApolloClient({
-    uri: "https://graphql-api-example.herokuapp.com/"
+    uri: "https://graphql-api-example.herokuapp.com/",
+    cache: new InMemoryCache()
 });
 
 ReactDOM.render(
